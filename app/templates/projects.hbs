@@ -3,5 +3,19 @@
   <p>
     Meus projetos de destaque feitos até aqui!
   </p>
-    <LinkTo @route="contact" class="button">Contact me</LinkTo>
+  <LinkTo @route="contact" class="button">Contact me</LinkTo>
 </Cabecalho>
+
+<div class="rentals">
+  <ul class="results">
+    {{#each @model as |model|}}
+      <li><Project @model={{model}} /></li>
+    {{/each}}
+  </ul>
+</div>
+
+<div class="mostrar-mais">
+  <button class="button more" type="button">Mostrar mais</button>
+</div>
+
+
