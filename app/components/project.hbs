@@ -1,19 +1,19 @@
-<article class="rental">
+<article class="project">
     <Project::Image src={{@model.image}}
     alt="A picture of {{@model.title}}"  />
     <div class="details">
-         <h3>{{@model.title}}</h3>
-        <div class="detail owner">
-            <span>Owner:</span> {{@model.owner}}
+        <h3>{{@model.title}}</h3>
+        <div class="detail descricao">
+            {{@model.description}}
         </div>
-        <div class="detail type">
-            <span>Type:</span> {{@model.type}}
+        <div class="detail linguagem">
+            <span>Linguagens:</span> 
+            <p>{{@model.linguagens}}</p>
         </div>
-        <div class="detail location">
-            <span>Location:</span> {{@model.city}}
-        </div>
-        <div class="detail bedrooms">
-            <span>Number of bedrooms:</span> {{@model.bedrooms}}
+        <div class="detail links">
+            <a href={{@model.link_github}} target="_blank">Github</a>
+            <span>|</span>
+            <a href={{@model.link_deploy}}>Deploy</a>
         </div>
     </div>
 </article>

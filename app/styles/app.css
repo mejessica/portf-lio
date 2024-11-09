@@ -139,7 +139,7 @@ div .mostrar-mais {
 
 .menu .links {
   padding: 0 21px;
-  width: 65%;
+  width: 70%;
   text-align: right;
 }
 
@@ -148,7 +148,7 @@ div .mostrar-mais {
   bottom: 5px;
 }
 
-.rentals label span {
+.projects label span {
   font-size: 140%;
   margin: 50px auto 20px;
   display: block;
@@ -156,13 +156,13 @@ div .mostrar-mais {
   font-style: italic;
 }
 
-.rentals form p {
+.projects form p {
   font-size: 80%;
   display: block;
   text-align: center;
 }
 
-.rentals input {
+.projects input {
   padding: 11px;
   font-size: 18px;
   width: 500px;
@@ -211,6 +211,9 @@ div .mostrar-mais {
 
 .results li {
   list-style: none;
+  height: auto;
+  display: flex;
+  flex-direction: column;
   padding: 10px 15px;
 }
 
@@ -300,10 +303,10 @@ div .mostrar-mais {
 }
 
 /**
- * Individual Rental Listing
+ * Individual project Listing
  */
 
-.rental {
+ .project {
   margin-top: 15px;
   background-color: #f6f6f6;
   padding: 20px 25px;
@@ -311,24 +314,27 @@ div .mostrar-mais {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  height: auto; 
+  width: 95%;
 }
 
-.rental:hover {
+
+.project:hover {
   background-color: #f3f3f3;
 }
 
-.rental img {
+.project img {
   border-radius: 5px;
 }
 
-.rental .image {
+.project .image {
   flex-grow: 0;
   flex-basis: 150px;
   margin: 20px 25px;
   text-align: center;
 }
 
-.rental button.image {
+.project button.image {
   position: relative;
   cursor: pointer;
   border: none;
@@ -336,11 +342,11 @@ div .mostrar-mais {
   z-index: 1;
 }
 
-.rental button.image:focus {
+.project button.image:focus {
   outline: none;
 }
 
-.rental button.image::after {
+.project button.image::after {
   content: "";
   position: absolute;
   top: 0;
@@ -356,150 +362,156 @@ div .mostrar-mais {
   transition: opacity 0.25s ease-in-out;
 }
 
-.rental button.image:focus::after,
-.rental button.image:hover::after {
+.project button.image:focus::after,
+.project button.image:hover::after {
   opacity: 0.1;
 }
 
-.rental .image img {
+.project .image img {
   max-width: 100%;
 }
 
-.rental .image.large {
+.project .image.large {
   margin: 30px 25px 50px;
   flex-basis: 100%;
 }
 
-.rental .image small {
+.project .image small {
   display: block;
   margin-top: 5px;
   margin-bottom: -15px;
   text-align: center;
   color: #016aba;
-
-  /* This is needed to fix a safari clipping issue */
   position: relative;
 }
 
-.rental .image.large small {
+.project .image.large small {
   margin-top: 10px;
   margin-bottom: 0;
   font-size: 110%;
 }
 
-.rental .details {
+.project .details {
   flex-basis: 50%;
   flex-grow: 2;
-  display: flex;
-  height: 150px;
-  margin: 20px 25px;
+  height: auto;
+  margin: 10px 5px;
   place-content: space-around space-between;
   flex-wrap: wrap;
 }
+.project .details .links{
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  color: #b05574;
+}
 
-.rental h3 {
+.project h3 {
   flex-basis: 100%;
 }
 
-.rental h3 a {
+.project h3 a {
   display: inline;
 }
 
-.rental .detail {
-  flex-basis: 50%;
+.project .detail {
   font-weight: 300;
   font-style: italic;
-  white-space: nowrap;
+  margin-top: 1rem;
 }
 
-.rental .detail span {
+.project .details .descricao {
+  padding-right: 5px;
+}
+
+.project .detail span {
   font-weight: 400;
   font-style: normal;
 }
 
-.rental .map {
+.project .map {
   flex-grow: 0;
   flex-basis: 150px;
   font-size: 0;
   margin: 0 25px;
 }
 
-.rental .map img {
+.project .map img {
   width: 150px;
   height: 150px;
 }
 
-.rental.detailed {
+.project.detailed {
   background: none;
   align-items: flex-start;
 }
 
-.rental.detailed .image {
+.project.detailed .image {
   flex-basis: 320px;
 }
 
-.rental.detailed .image.large {
+.project.detailed .image.large {
   margin: 30px 25px 50px;
   flex-basis: 100%;
 }
 
-.rental.detailed .details {
+.project.detailed .details {
   height: auto;
 }
 
-.rental.detailed h3 {
+.project.detailed h3 {
   font-size: 200%;
   margin-bottom: 10px;
 }
 
-.rental.detailed .detail {
+.project.detailed .detail {
   margin: 5px 0;
   flex-basis: 100%;
   flex-shrink: 2;
 }
 
-.rental.detailed .description {
+.project.detailed .descricao {
   white-space: normal;
   flex-basis: 100%;
   flex-shrink: 1;
 }
 
-.rental.detailed .map {
+.project.detailed .map {
   flex-basis: 100%;
   margin: 50px 25px 25px;
 }
 
-.rental.detailed .map img {
+.project.detailed .map img {
   width: 100%;
   height: auto;
 }
 
 @media only screen and (max-width: 919px) {
-  .rental.detailed .image,
-  .rental.detailed .image.large {
+  .project.detailed .image,
+  .project.detailed .image.large {
     margin: 30px 25px 25px;
     flex-basis: 100%;
     cursor: default;
   }
 
-  .rental.detailed .image:hover {
+  .project.detailed .image:hover {
     flex-basis: 100%;
     cursor: default;
   }
 
-  .rental.detailed .image small {
+  .project.detailed .image small {
     display: none;
   }
 
-  .rental.detailed button.image:hover::after {
+  .project.detailed button.image:hover::after {
     opacity: 0;
   }
 
-  .rental.detailed button.image:focus::after {
+  .project.detailed button.image:focus::after {
     opacity: 0.1;
   }
 
-  .rental.detailed .map {
+  .project.detailed .map {
     margin-top: 25px;
   }
 }

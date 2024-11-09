@@ -2,14 +2,14 @@ import { module, test } from 'qunit';
 import { click, visit, currentURL } from '@ember/test-helpers';
 import { setupApplicationTest } from 'portfolio-jessica/tests/helpers';
 
-module('Acceptance | super rentals', function (hooks) {
+module('Acceptance | super projects', function (hooks) {
   setupApplicationTest(hooks);
 
   test('visiting /', async function (assert) {
     await visit('/');
 
     assert.strictEqual(currentURL(), '/');
-    assert.dom('h2').hasText('Welcome to Super Rentals!');
+    assert.dom('h2').hasText('Welcome to Super projects!');
 
     assert.dom('.jumbo a.button').hasText('About Us');
     await click('.jumbo a.button');
@@ -21,7 +21,7 @@ module('Acceptance | super rentals', function (hooks) {
     await visit('/about');
 
     assert.strictEqual(currentURL(), '/about');
-    assert.dom('h2').hasText('About Super Rentals');
+    assert.dom('h2').hasText('About Super projects');
 
     assert.dom('.jumbo a.button').hasText('Contact Us');
     await click('.jumbo a.button');

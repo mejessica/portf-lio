@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "type": "project",
+      "id": "aspiras",
+      "attributes": {
+        "title": "Projeto Aspiras",
+        "link_github":"https://github.com/mejessica/aspiras_frontend",
+        "link_deploy":"#",
+        "linguagens": "Ember.js, SQL com Mysql, Laravel, ember-simple-auth e ember-simple-auth-token, php-open-source-saver/jwt-auth, HTML, CSS, Bootstrap",
+        "image": "/assets/images/aspiras_project.gif",
+        "description": "Este projeto teve o intuito de aplicar linguagens da empresa aprendidas no período de experiência. De forma geral nele é possível fazer sua lista de tarefas e acrescentar seus itens, assim como monitorar o seu ponto de trabalho."
+      }
+    },
+    {
+     "type": "project",
+      "id": "gourmet",
+      "attributes": {
+        "title": "Fusion Gourmet",
+        "link_github": "https://github.com/mejessica/FusionGourmet",
+        "link_deploy":"#",
+        "linguagens": "Node.js, Express.js, MongoDB ,CSS, EJS, API Spoonacular, Passport.js",
+        "image": "https://private-user-images.githubusercontent.com/82670472/292256499-db491be7-88d4-4d73-ab3e-0d8f289cabbd.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzExMTA5ODcsIm5iZiI6MTczMTExMDY4NywicGF0aCI6Ii84MjY3MDQ3Mi8yOTIyNTY0OTktZGI0OTFiZTctODhkNC00ZDczLWFiM2UtMGQ4ZjI4OWNhYmJkLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMDklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTA5VDAwMDQ0N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWI4NDNmOTNhOTgyNWIyY2JhYjViMTM4YjFmNmRjMjJiMGE5ZTE1ZmM0OTIwNDg2OWMxZGU4OTFlOTY4NGYxMzEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.9-WypW4YvwLBB6MrowYQBHVmCD4xpd60RhC2m-l3hiw",
+        "description": "Fusion Gourmet é um site de pesquisa de receitas, integrando a API Spoonacular para oferecer uma ampla gama de receitas com funcionalidades adicionais. O site permite que os usuários se cadastrem, salvem suas receitas favoritas e realizem buscas de receitas com filtros por nome, ingrediente ou tipo de cozinha."
+      }
+    },
+    {
+      "type": "project",
+      "id": "pokemon",
+      "attributes": {
+        "title": "Pokemon API",
+        "link_github":"https://github.com/mejessica/react_api_pokemon",
+        "link_deploy":"react-api-pokemon.vercel.app/",
+        "linguagens": "React, CSS, Context API, Pokemon API, Styled Component",
+        "image": "/assets/images/pokemon.gif",
+        "description": "O projeto foi feito em React para consolidar o aprendizado. Foi usado Styled Component para a estilização e ContextApi para a mudança dos temas. A API utlizada foi o Pokemon API."
+      }
+    },
+    {
+      "type": "project",
+      "id": "formulario",
+      "attributes": {
+        "title": "Formulário com MYSQL",
+        "link_github":"https://github.com/mejessica/formulario-com-mysql",
+        "link_deploy":"#",
+        "linguagens": "EJS, CSS, JS, NODEJS, API EXPRESS, MYSQL",
+        "image": "https://private-user-images.githubusercontent.com/82670472/266471922-af9488b6-e718-4608-9c17-a0340b057617.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzExMTA4MDMsIm5iZiI6MTczMTExMDUwMywicGF0aCI6Ii84MjY3MDQ3Mi8yNjY0NzE5MjItYWY5NDg4YjYtZTcxOC00NjA4LTljMTctYTAzNDBiMDU3NjE3LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMDklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTA5VDAwMDE0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZlYmMzOTZjOTc0MDFkNTgyZjFlMDJhOGJkZmY4ZjllOThmMzVjMTU1MWJlMjIwM2M0ZWM0ZmJjMDk4MjYzNWEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.yKjMUoUMX_3OmR10qj3QBvDnjESYwuIYaFOYkqn1JwA",
+        "description": "Projeto feito para treinar o aprendizado de rotas RESTful e utiliza do banco mysql para guardar os dados inseridos no formulário"
+      }
+    },
+    {
+      "type": "project",
+      "id": "bike",
+      "attributes": {
+        "title": "Bike-shop",
+        "link_github":"https://github.com/mejessica/bike-shop",
+        "link_deploy":"#",
+        "linguagens": "CSS, JS, EJS, Bootstrap, JQuery",
+        "image": "https://private-user-images.githubusercontent.com/82670472/238765696-e614e846-8438-4971-975e-0cf463f005e7.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzExMTA3NzksIm5iZiI6MTczMTExMDQ3OSwicGF0aCI6Ii84MjY3MDQ3Mi8yMzg3NjU2OTYtZTYxNGU4NDYtODQzOC00OTcxLTk3NWUtMGNmNDYzZjAwNWU3LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMDklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTA5VDAwMDExOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThiMzViYTM0MjJmNjAzZDAyNDA2MTM5NjYxZGYyMjk1ZjI0NzkzNTBkNGRlZWI0NjhiM2I3NGVjOTNjNjA3MjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.0iuKIvQShu4gqyetigOjCG5Trl7f5j6n1O_wq1j1QQA",
+        "description": "O projeto foi pensado como uma forma de trabalhar EJS e rotas express. Foi feito o responsivo para todos os dispositivos. Tentei usar pela primeira vez o bootstrap para me auxiliar com o tempo."
+      }
+    }
+  ]
+}
